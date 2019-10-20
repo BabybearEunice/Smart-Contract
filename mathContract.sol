@@ -1,5 +1,5 @@
 pragma solidity ^0.4.21;
-import "github.com/OpenZeppelin?zeppelin-solidity/contracts/math/SafeMath.sol";
+import "github.com/OpenZeppelin/zeppelin-solidity/contracts/math/SafeMath.sol";
 
 contract SafeCounter{
     using SafeMath for uint;
