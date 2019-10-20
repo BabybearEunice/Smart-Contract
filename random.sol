@@ -13,6 +13,6 @@ contract Random{
     }
     
         function randNow(uint min, uint max) public costant returns(unit){
-        return getNow() % (max - min);
+        return (getNow() % (max - min)) + min;
     }
 }
