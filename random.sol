@@ -1,5 +1,4 @@
 pragma solidity ^0.4.21;
-import "github.com/OpenZeppelin?zeppelin-solidity/contracts/math/SafeMath.sol";
 
 contract Random{
     using SafeMath for uint;
@@ -11,5 +10,9 @@ contract Random{
 
     function getBNow() public constant returns (uint){
         return now; //== return block.timestamp
+    }
+    
+        function randNow(uint min, uint max) public costant returns(unit){
+        return getNow() % (max - min);
     }
 }
