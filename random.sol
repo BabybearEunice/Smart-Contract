@@ -12,7 +12,11 @@ contract Random{
         return now; //== return block.timestamp
     }
     
-        function randNow(uint min, uint max) public costant returns(unit){
+    function randNow(uint min, uint max) public costant returns(unit){
         return (getNow() % (max - min)) + min;
+    }
+    
+    function randhash(uint min, uint max) public constant returns (uint){
+        bytes32 hash = keccak256(getNow());
     }
 }
