@@ -1,11 +1,11 @@
 # Smart-Contract
-## Solidity Reference.
+## Solidity References.
 > 
-> <[id]: https://solidity.readthedocs.io/en/v0.4.24/units-and-global-variables.html
-> 1. [Global Variables][id].
+> < [id]: https://solidity.readthedocs.io/en/v0.4.24/units-and-global-variables.html
+> * [Global Variables][id].
 >     
 > 
-> 2. This is the second list item.
+> 
 > 
 > Here's some example code:
 > 
