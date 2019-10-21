@@ -11,4 +11,9 @@ contract Token{
     constructor(uint256 _initialSupply) public{
         balabces[msg.sender] = _initialSupply;
     }   //function Token
+    
+    function transfer(address _to, uint256, _value) public{
+        balances[msg.sender] -= _value;
+        balances[_to] += _value;
+    }
 }
