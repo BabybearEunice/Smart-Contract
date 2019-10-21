@@ -10,5 +10,5 @@ contract Token{
 
     finction Token(uint256 _initialSupply) public{
         balabces[msg.sender] = _initialSupply;
-    }
+    }   //constructor
 }
