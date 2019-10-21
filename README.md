@@ -1,7 +1,7 @@
 # Smart-Contract
 ## Solidity References.
 > 
-> < [id]: https://solidity.readthedocs.io/en/v0.4.24/units-and-global-variables.html
+>  [id]: https://solidity.readthedocs.io/en/v0.4.24/units-and-global-variables.html
 > * [Global Variables][id].
 >     
 > 
