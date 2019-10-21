@@ -18,5 +18,6 @@ contract Random{
     
     function randhash(uint min, uint max) public constant returns (uint){
         bytes32 hash = keccak256(getNow());
+        return (uint(hash) % (max - min)) + min;
     }
 }
