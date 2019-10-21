@@ -12,7 +12,9 @@ contract Token{
         balabces[msg.sender] = _initialSupply;
     }   //function Token
     
-    function transfer(address _to, uint256, _value) public{
+     function transfer(address _to, uint256, _value) public{
+        require(balances[msg.sender] >= _value);
+        require(balances[_to] + _value >= balances[_to]);
         balances[msg.sender] -= _value;
         balances[_to] += _value;
     }
