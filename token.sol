@@ -1,4 +1,5 @@
-pragma solidity ^0.4.21;
+pragma solidity ^0.5.12;
+
 import "github.com/OpenZeppelin?zeppelin-solidity/contracts/math/SafeMath.sol";
 
 contract Token{
