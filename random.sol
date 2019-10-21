@@ -1,4 +1,4 @@
-pragma solidity ^0.4.21;
+pragma solidity ^0.5.2;
 
 contract Random{
     using SafeMath for uint;
