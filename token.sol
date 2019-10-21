@@ -8,7 +8,7 @@ contract Token{
         return balabces[_account];
     }
 
-    finction Token(uint256 _initialSupply) public{
+    constructor(uint256 _initialSupply) public{
         balabces[msg.sender] = _initialSupply;
-    }   //constructor
+    }   //function Token
 }
